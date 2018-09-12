@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rhea_erpnext *.css
+recursive-include rhea_erpnext *.csv
+recursive-include rhea_erpnext *.html
+recursive-include rhea_erpnext *.ico
+recursive-include rhea_erpnext *.js
+recursive-include rhea_erpnext *.json
+recursive-include rhea_erpnext *.md
+recursive-include rhea_erpnext *.png
+recursive-include rhea_erpnext *.py
+recursive-include rhea_erpnext *.svg
+recursive-include rhea_erpnext *.txt
+recursive-exclude rhea_erpnext *.pyc
