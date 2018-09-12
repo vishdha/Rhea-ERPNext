@@ -123,5 +123,5 @@ app_license = "MIT"
 
 fixtures = [{"dt": "Print Format", "filters": [["name", "in", ["Rhea PO","Rhea SI","Rhea DO"]]]},
             {"dt": "Letter Head", "filters": [["name", "in", ["Rhea 2"]]]},
-            {"dt": "Terms and Conditions", "filters": [["name", "in", ["Rhea"]]]}]
+            {"dt": "Terms and Conditions", "filters": [["name", "in", ["Rhea", "Rhea PO"]]]}]
 
