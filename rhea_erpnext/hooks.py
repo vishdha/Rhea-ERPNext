@@ -120,3 +120,8 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "rhea_erpnext.event.get_events"
 # }
 
+
+fixtures = [{"dt": "Print Format", "filters": [["name", "in", ["Rhea PO","Rhea SI","Rhea DO"]]]},
+            {"dt": "Letter Head", "filters": [["name", "in", ["Rhea 2"]]]},
+            {"dt": "Terms and Conditions", "filters": [["name", "in", ["Rhea"]]]}]
+
