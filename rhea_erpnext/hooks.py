@@ -121,7 +121,7 @@ app_license = "MIT"
 # }
 
 
-fixtures = [{"dt": "Print Format", "filters": [["name", "in", ["Rhea PO","Rhea SI","Rhea DO"]]]},
+fixtures = [{"dt": "Print Format", "filters": [["name", "in", ["Rhea PO","Rhea SI","Rhea DO", "Payment Voucher", "Receipt Voucher"]]]},
             {"dt": "Letter Head", "filters": [["name", "in", ["Rhea 2"]]]},
             {"dt": "Terms and Conditions", "filters": [["name", "in", ["Rhea", "Rhea PO", "Rhea DO"]]]}]
 
